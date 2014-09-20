@@ -130,8 +130,3 @@ var gitExists = require( "./git-exists/git-exists.js" );
 var fs = require( "fs" );
 
 module.exports = gitGetCurrentBranch;
-
-gitGetCurrentBranch( "./git-exists",
-	function onGitGetCurrentBranch( error, currentBranch ){
-		console.log( currentBranch );
-	} );
